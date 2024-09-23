@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Personal</title>
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #e8491d;
+            /* Color al pasar el ratón */
+        }
+
+        /* Estilos de las secciones */
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            /* Para posicionar imágenes */
+        }
+
+        section#inicio {
+            background: #e7f3fe;
+            /* Color de fondo azul claro */
+        }
+
+        section#bibliografia {
+            background: #fce6d2;
+            /* Color de fondo naranja claro */
+        }
+
+        section#habilidades {
+            background: #d1e7dd;
+            /* Color de fondo verde claro */
+        }
+
+        section#proyectos {
+            background: #ffe5d8;
+            /* Color de fondo rosa claro */
+        }
+
+        section#contacto {
+            background: #d9f99d;
+            /* Color de fondo amarillo claro */
+        }
+
+        section h2 {
+            color: #35424a;
+            margin-bottom: 15px;
+        }
+
+        section ul {
+            margin-top: 10px;
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Imágenes */
+        .img-ropa {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+            display: block;
+            border-radius: 5px;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>TENDENCIAS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#bibliografia">Bibliografía</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a Mi Página</h2>
+            <p>Hola, soy [ROSINALDO], y este es un espacio donde comparto mi trayectoria, habilidades y proyectos.
+                ¡Explora y conéctate!</p>
+            <img src="imagenes/file.enc" alt="Ropa 1" class="img-ropa"> <!-- Reemplaza con una URL de imagen de ropa -->
+        </section>
+
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <p>Aquí puedes incluir información sobre tu formación académica, experiencias laborales y cualquier otro
+                detalle relevante sobre tu trayectoria profesional.</p>
+            <ul>
+                <li>Licenciatura en [Lic ADMINISTRACION] - [UPeU] - [Año 2024]</li>
+                <li>[ASISTENTE CONTABLE]</li>
+            </ul>
+            <img src="imagenes/descarga.jpg" alt="Ropa 2" class="img-ropa">
+            <!-- Reemplaza con una URL de imagen de ropa -->
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>[Otras habilidades relevantes]</li>
+                <li>[Software o herramientas que dominas]</li>
+            </ul>
+            <img src="imagenes/images.jpg" alt="Ropa 3" class="img-ropa">
+            <!-- Reemplaza con una URL de imagen de ropa -->
+        </section>
+
+        <section id="proyectos">
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                <p>Aquí puedes listar algunos de tus proyectos destacados. Incluye enlaces si están disponibles.</p>
+                <ul>
+                    <li><a href="[enlace al proyecto 1]">Proyecto 1</a>: Descripción breve del proyecto.</li>
+                    <li><a href="[enlace al proyecto 2]">Proyecto 2</a>: Descripción breve del proyecto.</li>
+                </ul>
+
+                <!-- Video incrustado -->
+                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <iframe width="800" height="520" src="https://www.youtube.com/embed/9DjviXfQms8"
+                title="MODA de HOMBRE 2024 - TENDENCIAS para ti" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <h2>Proyectos</h2>
+            <p>Aquí puedes listar algunos de tus proyectos destacados. Incluye enlaces si están disponibles.</p>
+            <ul>
+                <li><a href="[enlace al proyecto 1]">Proyecto 1</a>: Descripción breve del proyecto.</li>
+                <li><a href="[enlace al proyecto 2]">Proyecto 2</a>: Descripción breve del proyecto.</li>
+            </ul>
+            <img src="imagenes/rrrrr.jpg" alt="Ropa 4" class="img-ropa">
+            <!-- Reemplaza con una URL de imagen de ropa -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes hacerlo a través de las siguientes plataformas:</p>
+            <ul>
+                <li>Email: [tuemail@example.com]</li>
+                <li>LinkedIn: <a href="[enlace a tu LinkedIn]">Tu Perfil de LinkedIn</a></li>
+                <li>Twitter: <a href="[enlace a tu Twitter]">Tu Perfil de Twitter</a></li>
+            </ul>
+            <img src="https://example.com/imagen-ropa5.jpg" alt="Ropa 5" class="img-ropa">
+            <!-- Reemplaza con una URL de imagen de ropa -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
